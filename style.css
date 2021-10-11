@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+  }
+  /* .img {
+    width: 100%;
+    object-fit: cover;
+  } */
+  .container {
+    width: 80vw;
+    margin: auto;
+  }
+  .banner {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/9\ Eylül\ 1922\ İzmir\ in\ Kurtuluşu\ -\ Sesan.png)center/cover no-repeat fixed;
+    opacity: 0.8;
+  }
+  .cumhuriyet {
+    text-align: center;    
+    color: white;
+    padding: 1rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    background: black;
+    outline: 0.4rem inset purple;
+    outline-offset: 0.5rem;
+  }
+  
+  .inönü__1, 
+  .sakarya {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.8;
+    color: #666666;
+    text-align: justify;
+  }
+  span{
+    color:goldenrod;
+  }
+
+  .inönü__2,
+  .başkomutan {
+    background: #282e34;
+    color: #dddddd;
+    text-align: center;
+    padding: 3rem;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  @media screen and (min-width: 800px) {
+    .cumhuriyet {
+      padding: 2rem;
+      font-size: 3rem;
+      letter-spacing: 0.5rem;
+      border-top-left-radius: 2rem;
+      border-bottom-right-radius: 2rem;
+      outline: 0.5rem inset purple;
+      outline-offset: 1rem;
+    }
+  }
+
+  .reinvent {
+    background: url(./images/Buyuk-Taarruz-Panorama2.jpeg) center/cover no-repeat fixed;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+  }
+
+  .background{
+    background: url(./images/IMG_20190809_131457.jpeg)center/cover no-repeat fixed;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+  }
+
+  .img {
+    display: block;
+    width: 40%;
+    margin: auto;
+  }
+
+  
+  .team {
+    background: url(./images/Buyuk-Taarruz-Panorama1.jpeg) center/cover no-repeat fixed;
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    
+  }
+
+  .team > div,
+  .reinvent > div {
+    background: black;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+    padding: 0.5rem; 
+    text-align: center;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    outline: 0.2rem inset purple;
+    outline-offset: 0.15rem;
+
+  }
+  
+ 
+  
+  

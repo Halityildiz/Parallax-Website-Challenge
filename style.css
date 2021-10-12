@@ -11,6 +11,9 @@
     width: 80vw;
     margin: auto;
   }
+  div h2{
+    text-align: center;
+  }
   .banner {
     display: flex;
     height: 100vh;
